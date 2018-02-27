@@ -142,6 +142,7 @@ header{
 #structure img{
     width: 125px;
 }
+
 #team .section-text{
     font-size: 1.9em;
     text-align: center;
@@ -161,6 +162,44 @@ header{
     font-weight: 700;
     display: block;
     text-align: center;
+    margin-bottom: 40px;
+}
+#schedule{
+    background-color: #fff;
+    width: 100%;
+}
+.schedule-table{
+    margin: 0 auto 40px auto;
+    font-size: 1.5em;   
+}
+table th,td{
+    border-bottom: 1px solid black;
+    padding: 5px 10px;
+}
+.slot-form-container{
+    width:40%;
+    margin: 18px auto 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+   
+}
+.label{
+    display: block;
+    margin-bottom: 5px;
+    line-height: 15px;
+}
+.slot-form-container input,select {
+    height: 20px;
+    padding: 3px;
+    width: 100%;
+    outline: none;
+}
+.slot-form-container button{
+     border:1px solid black;
+     color:black;
+     background-color:#fff;
+     padding:9px;
+     margin-top:15px;
 }
 .footer{
     text-align: center;
